@@ -1,0 +1,177 @@
+//@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');  :exemple, copier depuis google fonts>import
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Raleway');
+
+.frame-titles {
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        font-size: 3.6em;
+        letter-spacing: 2px;
+        font-weight: bold;
+        margin: 32px 0 0;
+        @media screen and (max-width: 640px) {
+            font-size: 1.8em;
+        }
+        @media screen and (min-width:640px) and (max-width: 990px) {
+            font-size: 3em;
+        }
+        
+    }
+
+     
+
+    p {
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        letter-spacing: 0;
+        line-height: 34px;
+        font-size: 1.5em;
+        @media screen and (max-width: 640px) {
+            line-height: 26px;
+            font-size: 1.2em;
+        }
+        @media screen and (min-width:640px) and (max-width: 990px) {
+            letter-spacing: 1px;
+        }
+       
+        
+    }
+}
+.button {
+    >a {
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        color:#fff;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        letter-spacing: 1.2px;
+        font-weight: bold;
+    }
+}
+
+.menu {
+    >a{
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        color: #5c5d67;
+        font-size: 1em;
+        @media screen and (max-width: 990px) {
+            font-size: 0.8em;
+        } 
+    }
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: #44444d;
+    font-size: 2em;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    @media screen and (max-width: 640px) {
+        font-size: 1.25em;
+        line-height: 32px;
+    } 
+    @media screen and (min-width:640px) and (max-width: 990px) {
+        font-size: 1.6em;
+        line-height: 40px;
+    }
+    
+}
+.body-texte{
+    font-family: 'Lato', sans-serif;
+    color: #5c5d67;
+    font-size: 1em;
+    letter-spacing: 0.2px;
+    line-height: 26px;
+    
+}
+.contenu {
+    p {
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        letter-spacing: 1px;
+        line-height: 50px;
+        font-size: 2em;
+        @media screen and (max-width: 640px) {
+            line-height: 26px;
+            font-size: 1.2em;
+        }
+    }
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    text-align: left;
+    line-height: 1.47;
+    letter-spacing: 1.3px;
+    color: #303cad;
+    text-transform: uppercase;
+}
+
+
+.feature-menu {
+    h3 {
+        margin: 10px 0 0;
+        padding-bottom: 40px;
+        font-size: 1.2em;
+        @media screen and (max-width: 640px) {
+            font-size: 0.9em;
+        }
+        //border-bottom: 1px solid #dee3e7;
+    }
+    .feature 
+        .click{
+            cursor: pointer;
+            .txt {
+                font-family: 'Raleway', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.47;
+                letter-spacing: 1.3px;
+                color: #303cad;
+                text-transform: uppercase;
+            }
+        }
+    .bf1{
+        padding: 10px 0 20px;
+    }
+}
+
+
+.card-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    line-height: 1.57;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color: #9193aa;
+    text-transform: uppercase;
+}
+
+.grey-block {    
+    .client-logos{
+        h3{
+            color: #9193aa;
+            font-size: 1.1em;
+        }
+    }
+}
+.grey-block {    
+    .banner-logos{
+        h3{
+            color: #9193aa;
+        }
+    }
+}
+
+.footer-wrapper {
+    a{
+        font-family: 'Lato', sans-serif;
+        font-size: 0.8em;
+        line-height: 1.4;
+        color: #5c5d67;
+        text-decoration: none;
+    }
+}
